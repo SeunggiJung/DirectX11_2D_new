@@ -10,6 +10,9 @@ public:
 	void Update();
 	void Render();
 
+	Animator* GetAnimator() { return animator; }
+	void SetAnimator(Animator* animator);
+
 private:
 	Animator* animator = nullptr;
 	
